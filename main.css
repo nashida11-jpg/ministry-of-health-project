@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+nav{
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    padding: 10px 20px;
+    background-color:#428177;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.privacy{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+.privacy h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.box{
+    padding: 50px;
+    border-radius: 10px;
+    background: linear-gradient(#428177);
+    color: white;
+    text-align: right;
+}
+.box h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.box p{
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+.booking{
+    width: 90%;
+    margin: 70px auto;
+    text-align: center;
+}
+.booking h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.booking p{
+    color: gray;
+}
+.line{
+    width: 120px;
+    height: 2px;
+    background-color: gray;
+    margin: 20px auto 50px;
+}
+.form-box{
+    background: linear-gradient(#428177);
+    padding: 50px;
+    border-radius: 10px;
+}
+.form-box h2{
+    color: white;
+    text-align: right;
+    margin-bottom: 30px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+input,select{
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    direction: rtl;
+}
+button{
+    grid-column: span 2;
+    padding: 18px;
+    background-color: #054239;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.volunteering{
+     width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+.volunteering h1{
+     font-size: 45px;
+    margin-bottom: 50px;
+}
+.container{
+       padding: 50px;
+    border-radius: 10px;
+    background: linear-gradient(#428177);
+    color: white;
+    text-align: right;
+}
+.container h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.container p{
+    color: white
+}
+.linee{
+     width: 200px;
+    height: 1px;
+    background-color: gray;
+    margin: 20px auto 50px;
+}
