@@ -16,7 +16,7 @@
                <li><a href="#"></a>نصائح طبية</li>
                 <li><a href="#"></a>الاطباء</li>
         </ul>
-        <button>تسجيل الدخول</button>
+        <button class="login-btn">تسجيل الدخول</button>
     </nav>
     <section class="privacy">
         <h1>سياسة الخصوصية</h1>
@@ -83,8 +83,246 @@
             <p>يحق للمتطوع انهاء مشاركته بعد ابلاغ الجهة المنظمة بالوقت المناسب</p>
         </div>
     </section>
-    
+    <section class="about">
+        <h1>من نحن</h1>
+        <div class="linee"></div>
+        <div class="hero">
+            <h2>من نحن</h2>
+            <p>نحن منصة تطوعية بين الاطباء المتطوعين والمرضى بهدف تسهيل الوصول الى الاستشارات الطبية وحجز المواعيد</p>
+            <h2>رؤيتنا</h2>
+            <p>نسعى الى بناء مجتمع يحصل فيه كل مريض على الدعم الطبي من خلال تعزيز ثقافة التطوع والاستفادة من خبرات الاطباء</p>
+            <h2>رسالتنا</h2>
+            <p>نهدف الى توفير منصة موثوقة تتيح للمرضى طرح اسئلتهم الطبية والتواصل مع الاطباء المتظوعين بسهولة وسرعة</p>
+            <h2>خدماتنا</h2>
+            <p>نوفر امكانية طرح الاسئلة الطبية وحجز المواعيد مع الاطباء المتطوعين ومتابعة الطلبات عبر منصة سهلة الاستخدام</p>
+            <h2>قيمنا</h2>
+            <p>نؤمن باهمية التطوع والانسانية والخصوصية والشفافية ونسعى الى تقديم خدمات تحترم المستخدمين وتلبي احتياجاتهم</p>
+            <h2>مجتمعنا</h2>
+            <p>نفخر بوجود أطباء متطوعين يشاركون خبراتهم، ومرضى يثقون بالمنصة للحصول على الدعم والاستشارة</p>
+        </div>
+    </section>
+    <section class="doctor">
+        <img src="./doctor.jpg" alt="Doctor">
+    </section>
+    <section class="title">
+        
+        <h1>اطرح سؤالك الان</h1>
+        <p>استشر طبيبا واحصل على اجابة سؤالك</p>
+        <div class="linee"></div>
+        <div class="form-container">
+            <div class="input-group">
+                <input type="text" placeholder="الاسم الكامل">
+                <input type="text" placeholder="رقم الهاتف">
+            </div>
+            <div class="input-group">
+                <select>
+                    <option selected disabled>التخصص</option>
+                <option>القلبية</option>
+                <option>العظمية</option>
+                <option>الداخلية</option>
+                <option>الاسنان</option>
+                </select>
+                <select>
+                    <option selected disabled>الطبيب</option>
+                     <option>د.احمد</option> 
+                      <option>د.محمد</option> 
+                       <option>د.سارة</option>
+                        <option>د.لين</option>      
+                </select>
+            </div>
+            <textarea placeholder="اكتب سؤالك هنا"></textarea>
+            <button class="send-btn">ارسال</button>
+        </div>
+    </section>
+    <section class="fav">
 
-    
+    <div class="fav-title">
+        <h1>الأسئلة الشائعة</h1>
+        <p>إجابات على أكثر الأسئلة شيوعاً</p>
+        <div class="linee"></div>
+    </div>
+
+    <div class="fav-box">
+        <details>
+            <summary>هل يمكنني التواصل مع الطبيب عبر الواتساب؟</summary>
+            <p>الجواب</p>
+        </details>
+
+        <details>
+            <summary>هل يمكنني إلغاء أو تعديل موعدي؟</summary>
+            <p>الجواب</p>
+        </details>
+
+        <details>
+            <summary>هل يمكنني إلغاء أو تعديل موعدي؟</summary>
+            <p>الجواب</p>
+        </details>
+
+        <details>
+            <summary>هل يمكنني إلغاء أو تعديل موعدي؟</summary>
+            <p>الجواب</p>
+        </details>
+
+        <details>
+            <summary>هل يمكنني إلغاء أو تعديل موعدي؟</summary>
+            <p>الجواب</p>
+        </details>
+    </div>
+</section>
+    <section class="form-section">
+        <h1>يرجى تعبئة البيانات لاكمال تسجيلك</h1>
+        <p>معلوماتك الشخصية</p>
+        <form class="form-cntr">
+            <div class="input-box">
+                <label>الاسم الكامل</label>
+                <input type="text"  placeholder="مثال:احمد الاحمد">
+            </div>
+            <div class="input-box">
+                <label>رقم الهاتف</label>
+                <input type="tel" placeholder="ادخل رقم الهاتف">
+            </div>
+            <div class="input-box">
+                <label>البريد الالكتروني</label>
+                <input type="email" placeholder="email@gmail.com">
+            </div>
+            <div class="input-box">
+                <label>المدينة</label>
+                <select>
+                    <option>اختر المدينة</option>
+                    <option>حلب</option>
+                    <option>دمشق</option>
+                    <option>حمص</option>
+                </select>
+            </div>
+            <div class="input-box full-width">
+                <label>التخصص</label>
+                <select>
+                    <option>اختر التخصص</option>
+                     <option>قلبية</option>
+                      <option>اطفال</option>
+                       <option>داخلية</option>
+                </select>
+            </div>
+            <button class="btn">الحفظ والمتابعة</button>
+        </form>
+    </section>
+    <div class="cntr">
+        <h2 class="h2">يرجى تعبئة البيانات لاكمال تسجيلك</h2>
+        <p class="p">اوقات التطوع</p>
+        <div class="section-title">
+             <i class="fa-regular fa-calendar"></i>
+             <h3>ايام العمل</h3>
+        </div>
+        <div class="days">
+            <label class="day .active">
+                السبت
+                <input type="checkbox" checked>
+            </label>
+            <label class="day">
+                الاحد
+                <input type="checkbox" checked>
+            </label>
+            <label class="day active">
+                الاثنين
+                <input type="checkbox" checked>
+            </label>
+            <label class="day">
+                الثلاثاء
+                <input type="checkbox" checked>
+            </label>
+            <label class="day active">
+                الاربعاء
+                <input type="checkbox" checked>
+            </label>
+            <label class="day">
+                الخميس
+                <input type="checkbox" checked>
+        </div>
+        <div class="times">
+            <div class="time">
+                <label>من الساعة</label>
+                <select>
+                    <option>صباحا 8:00</option>
+                </select>
+            </div>
+            <div class="time">
+                <label>الى الساعة</label>
+                <select>
+                    <option>صباحا3:00</option>
+                </select>
+            </div>
+        </div>
+        <div class="duration">
+            <h3>مدة الجلسة</h3>
+            <div class="duration-grd">
+                <div>دقيقة15</div>
+                <div>دقيقة20</div>
+                <div>دقيقة25</div>
+                <div>دقيقة30</div>
+                <div>دقيقة35</div>
+                <div>دقيقة40</div>
+            </div>
+        </div>
+        <div class="speciliaty">
+            <label>مخصص</label>
+            <select>
+                <option>اختر الفئة المناسبة</option>
+            </select>
+        </div>
+        <button class="btnn">الحفظ والمتابعة</button>
+    </div>
+<section class="schedule">
+
+    <h2>يرجى تعبئة البيانات لإكمال تسجيلك</h2>
+
+    <p>اختر الأوقات التي ستكون متاحاً فيها لاستقبال المرضى</p>
+
+    <div class="timess">
+        <button class="num">8:30 ص</button>
+        <button class="num">8:30 ص</button>
+        <button class="active">9:00 ص ✓</button>
+        <button class="num">9:00 ص</button>
+        <button class="num">9:30 ص</button>
+        <button class="num">10:00 ص</button>
+        <button class="num">10:30 ص</button>
+        <button class="active">11:00 ص ✓</button>
+        <button class="active">11:30 ص ✓</button>
+        <button class="num">12:00 م</button>
+        <button class="num">12:30 م</button>
+        <button class="active">01:00 م ✓</button>
+        <button class="num">1:30 م</button>
+        <button class="num">2:00 م</button>
+        <button class="num">2:30 م</button>
+        <button class="num">3:00 م</button>
+        <button class="num">1:30 م</button>
+        <button class="num">2:00 م</button>
+        <button class="num">2:30 م</button>
+        <button class="num">3:00 م</button>
+    </div>
+    <div class="check-box">
+        <input type="checkbox">
+        <label>أوافق على شروط التطوع وسياسة الخصوصية والاستخدام</label>
+    </div>
+    <button class="submit-btn">إرسال الطلب</button>
+</section>
+<footer>
+            <h2>LOGO</h2>
+            <div class="footer-links">
+                <a href="#">الرئيسية</a>
+                <a href="#">الاسئلة الشائعة</a>
+                <a href="#">احجزموعد</a>
+                <a href="#">النصائح الطبية</a>
+                <a href="#">الاطباء</a>
+            </div>
+            <div class="footer-links second-links">
+                <a href="#">من نحن</a>
+                <a href="#">سياسة الخصوصية</a>
+                <a href="#">شروط التطوع </a>
+                <a href="#">قسم الشكاوي</a>
+            </div>
+            <p>جميع الحقوق محفوظة@2026</p>
+        </footer><br>
+        <br>
+
 </body>
 </html>
